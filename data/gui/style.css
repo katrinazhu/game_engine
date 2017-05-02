@@ -1,0 +1,302 @@
+/*
+    Document   : control Style
+*/
+
+
+#pane {
+    -fx-background-image: url("hawaiian_shirt_background4.jpeg");
+    -fx-background-size: 100%;   
+    -fx-background-repeat: repeat;
+    -fx-background-width: 100%;
+    -fx-background-height: 100%;
+    -fx-background-position: center center;
+}
+
+.menu-bar { 
+    -fx-background-color: rgba(41, 41, 41, 0.7); 
+}
+
+.menu:hover {
+    -fx-background-color:black;
+}
+
+.menu:focused {
+    -fx-background-color:black;
+}
+
+.menu:focused .label {
+    -fx-background-color: derive(#292929, 10%);
+}
+
+
+.menu-item .graphic-container {
+    -fx-background-color: derive(#292929, 10%);
+}
+
+.radio-button .radio {
+    -fx-background-insets: 0;
+    -fx-background-color: rgba(41, 41, 41, 0.7);
+}
+
+.radio-button {
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 13pt;
+/*    -fx-text-fill: rgb(255, 255, 255, 0.4);*/
+    -fx-text-fill: #fdbe3b;
+/*    -fx-effect: dropshadow(one-pass-box , rgba(0, 0, 0, 0.6), 0, 0.0 , 0 , 1 );*/
+}
+
+
+.menu .label { 
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}
+
+.menu:selected {
+    -fx-background-color: black;
+}
+
+#options-label { 
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 20px;
+    -fx-text-fill: #fdbe3b;
+
+}
+
+.menu-item:focused {
+    -fx-background-color: black;
+}
+
+.menu:showing .label { 
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 13px;
+}
+
+.menu:showing {
+    -fx-background-color: black;
+}
+
+.context-menu {
+    -fx-background-color: rgba(41, 41, 41, 0.8);
+}
+ 
+.body {
+  width: 100%;
+}
+
+#glass {
+    -fx-background-color: rgba(41, 41, 41, 0.5); 
+    -fx-text-fill: #fdbe3b;
+    -fx-font-size: 40px;
+}
+
+.button {
+    -fx-background-color: derive(#292929, 10%);
+    -fx-background-insets: 0,2;
+    -fx-background-radius: 9,8,5,4;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}
+
+
+.text-field {
+    -fx-background-color: derive(#292929, 10%), derive(#292929, 10%), derive(#292929, 10%);
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}
+
+.text-field:focused {
+    -fx-background-color: derive(#292929, 10%), derive(#292929, 10%), derive(#292929, 10%);
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}
+
+
+#user-profile-button {
+    -fx-background-image: url('blank_profile_page.jpeg');
+    -fx-background-size: 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: black;
+    -fx-background-insets: 0,2;
+    -fx-background-radius: 9,8,5,4;
+    -fx-padding: 15 30 15 30;
+}
+
+#animation-label {
+    -fx-background-color: rgba(41, 41, 41, 0.9);
+    -fx-text-fill: #fdbe3b;;
+    -fx-font-size: 20px;
+    -fx-background-insets: 0,2;
+    -fx-background-radius: 9,8,5,4;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+#facebook-button {
+    -fx-background-color: #3b5998;
+    -fx-background-insets: 0,2;
+    -fx-background-radius: 9,8,5,4;
+    -fx-font-weight: bold;
+}
+
+#facebook-label {
+    -fx-font-family: Lucida;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16px;
+}
+
+#facebook-button:hover {
+    -fx-background-color: #2F4779;
+    -fx-background-insets: 0,2;
+    -fx-background-radius: 9,8,5,4;
+    -fx-font-weight: bold;
+    -fx-font-family: Lucida;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 13px;
+}
+
+.combo-box-popup > .list-view {
+    -fx-max-width: 100%;
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+    -fx-max-height: 200px;
+}
+
+#combo-box-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}
+
+
+.combo-box-base {
+    -fx-background-color: derive(#292929, 10%), derive(#292929, 10%), derive(#292929, 10%), derive(#292929, 10%);
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 8 4 8 4;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}
+
+.combo-box .arrow-button{
+    -fx-background-color: derive(#292929, 10%);
+}
+
+.combo-box .arrow { 
+    -fx-background-color: black;
+}
+
+/*
+.combo-box .list-cell 
+{
+    -fx-background-color: rgba(41, 41, 41, 0.7); 
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}*/
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: rgba(41, 41, 41, 0.7);
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b; 
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-background-color: rgba(41, 41, 41, 0.7);
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}
+
+
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: black;
+    -fx-font-size: 13pt;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: black;
+    -fx-font-size: 13pt;
+}
+
+
+.combo-box .cell:selected {
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}
+
+/*
+.combo-box-base:hover {
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}*/
+
+.combo-box .cell{
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+}
+.my-list-cell {
+    -fx-background-color: rgba(41, 41, 41, 0.7);
+    -fx-font-size: 13px;
+    -fx-text-fill: #fdbe3b;
+
+}
+
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}
+
+.slider .thumb{
+    -fx-background-color: #BABABA;
+    -fx-border-radius: 10;
+    -fx-border-color: #BABABA;
+}
+
+.slider .track{
+    -fx-background-color: #9E9E9E;
+}
+
+.buttontext {
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 20px;
+    -fx-text-fill: #fdbe3b;
+}
+
+.label {
+    -fx-text-fill: #fdbe3b;
+    -fx-font-size: 40px;
+    -font-weight: bold; 
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+#combobox-label {
+    -fx-text-fill: #fdbe3b;
+    -fx-font-size: 10px;
+    -fx-font-family: "Segoe UI Semibold"; 
+}
+
+#heading {
+    -fx-text-fill: black;
+    -fx-font-size: 50px;
+    -font-weight: bold; 
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+
